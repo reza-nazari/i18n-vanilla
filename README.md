@@ -14,9 +14,26 @@ import Translate from 'i18n-vanilla';
 
 
 const translate = new Translate({
-  languages: ["en", "fa"],
+  languages: ["en", "fr"],
   localesPath: 'src/i18n'
 });
 
 translate.load("en")
+```
+
+```json
+//src/i18n/en.json
+{
+    "HELLO": "Hello"
+}
+
+//src/i18n/fr.json
+{
+    "HELLO": "Bonjour"
+}
+```
+
+```html
+  <div i18n="HELLO"></div>
+  <input type="text" i18n="HELLO" i18n-attr="placeholder" >
 ```
