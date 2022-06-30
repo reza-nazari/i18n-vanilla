@@ -1,0 +1,25 @@
+{
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  },
+  "name": "i18n-vanilla",
+  "description": "a language library",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "npx tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reza-nazari/i18n-vanilla.git"
+  },
+  "keywords": [
+    "i18n"
+  ],
+  "author": "RN",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/reza-nazari/i18n-vanilla/issues"
+  },
+  "homepage": "https://github.com/reza-nazari/i18n-vanilla#readme"
+}
